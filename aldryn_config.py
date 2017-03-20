@@ -9,4 +9,8 @@ class Form(forms.BaseForm):
         if 'aldryn-wagtail' in settings['INSTALLED_ADDONS']:
             settings['PUPUT_AS_PLUGIN'] = True
             settings['PUPUT_USERNAME_REGEX'] = '\w.+'
+
+        if 'compressor' in settings['INSTALLED_ADDONS'] and not 'compressor.finders.CompressorFinder' in settings['STATICFILES_FINDERS']:
+            settings['STATICFILES_FINDERS'].append('compressor.finders.CompressorFinder')
+
         return settings
