@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from aldryn_client import forms
 
-print("executing")
 class Form(forms.BaseForm):
 
     def to_settings(self, data, settings):
