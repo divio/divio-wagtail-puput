@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+0.8.0.4 (2017-03-20)
+--------------------
+
+Added config for 'compressor.finders.CompressorFinder'
+
+
 0.8.0.2 (2017-03-17)
 --------------------
 
