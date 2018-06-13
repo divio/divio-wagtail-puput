@@ -12,7 +12,7 @@ setup(
     packages=find_packages(),
     platforms=['OS Independent'],
     install_requires=[
-        'puput==0.8',
+        'puput==1.0.2',
     ],
     include_package_data=True,
     zip_safe=False,

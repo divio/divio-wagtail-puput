@@ -2,8 +2,7 @@
     "package-name": "divio-wagtail-puput",
     "installed-apps": [
         "puput",
-        "compressor",
-        "wagtail.contrib.wagtailsitemaps",
-        "wagtail.contrib.wagtailroutablepage"
+        "wagtail.contrib.sitemaps",
+        "wagtail.contrib.routable_page"
     ]
 }

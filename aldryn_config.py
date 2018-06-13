@@ -10,8 +10,4 @@ class Form(forms.BaseForm):
             settings['PUPUT_AS_PLUGIN'] = True
             settings['PUPUT_USERNAME_REGEX'] = '\w.+'
 
-            if not 'compressor.finders.CompressorFinder' in settings['STATICFILES_FINDERS']:
-                settings['STATICFILES_FINDERS'].append('compressor.finders.CompressorFinder')
-                settings['COMPRESS_ENABLED']=False
-
         return settings
