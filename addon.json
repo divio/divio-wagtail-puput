@@ -3,6 +3,7 @@
     "installed-apps": [
         "puput",
         "wagtail.contrib.sitemaps",
-        "wagtail.contrib.routable_page"
+        "wagtail.contrib.routable_page",
+        "django_social_share"
     ]
 }

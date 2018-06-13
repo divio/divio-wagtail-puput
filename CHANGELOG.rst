@@ -4,8 +4,15 @@ CHANGELOG
 1.0.2.1 (2018-06-13)
 --------------------
 
+Added django_social_share to INSTALLED_APPS
+
+
+1.0.2.1 (2018-06-13)
+--------------------
+
 Updated to Wagtail 2.0/Django 1.11 compatibility
 Removed compressor configuration
+
 
 0.8.0.4 (2017-03-20)
 --------------------
